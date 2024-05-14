@@ -12,11 +12,13 @@ function App() {
       <Router>
         <div>
           <Navigation />
-          <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/blogs" element={<MyBlogs />} />
-            <Route path="/stored-blogs" element={<PublicBlogs />} />
-          </Routes>
+          <div className="bg-white w-full h-screen flex justify-center">
+            <Routes>
+              <Route path="/" element={<LandingPage />} />
+              <Route path="/blogs" element={<MyBlogs />} />
+              <Route path="/stored-blogs" element={<PublicBlogs />} />
+            </Routes>
+          </div>
         </div>
       </Router>
     </AuthProvider>
