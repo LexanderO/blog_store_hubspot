@@ -59,7 +59,7 @@ const MyBlogs = () => {
           My HubSpot Blogs
         </h1>
         {loading ? (
-          <p className="text-center text-blue-500">Loading...</p>
+          <p className="text-center text-primary text-4xl font-bold">Loading...</p>
         ) : (
           blogs.map((blog) => (
             <div

@@ -26,7 +26,7 @@ function PublicBlogs() {
     <div className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-primary mb-6 text-center">Public Blogs</h1>
       {loading ? (
-        <p className="text-center text-blue-500">Loading...</p>
+        <p className="text-center text-primary text-4xl font-bold">Loading...</p>
       ) : blogs.length > 0 ? (
         <div className="space-y-4">
           {blogs.map((blog) => (
