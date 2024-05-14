@@ -42,7 +42,7 @@ function PublicBlogs() {
                 href={blog.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-tertiary hover:text-primary transition duration-150 ease-in-out"
+                className="text-tertiary hover:text-primary transition duration-150 ease-in-out text-lg"
               >
                 Full Blog
               </a>

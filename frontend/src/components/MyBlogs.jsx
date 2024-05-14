@@ -67,18 +67,18 @@ const MyBlogs = () => {
               className="bg-white rounded-lg shadow-md p-6 mb-4 flex justify-between items-start"
             >
               <div>
-                <h3 className="text-xl font-semibold text-gray-800">
+                <h3 className="text-xl font-semibold text-secondary">
                   {blog.name}
                 </h3>
                 <p className="text-secondary font-medium">{blog.meta_description}</p>
-                <p className="text-gray-500 italic pt-3">
+                <p className="text-black italic pt-6 text-base">
                   Author: {blog.author_name || "Unknown"}
                 </p>
                 <a
                   href={blog.absolute_url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-tertiary hover:text-primary transition duration-300 ease-in-out"
+                  className="text-tertiary hover:text-primary transition duration-300 ease-in-out text-lg"
                 >
                   Full Blog
                 </a>
