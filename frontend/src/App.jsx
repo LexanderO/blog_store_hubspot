@@ -12,7 +12,7 @@ function App() {
       <Router>
         <div>
           <Navigation />
-          <div className="bg-white w-full h-screen flex justify-center">
+          <div className="bg-litegrey w-full h-screen flex justify-center">
             <Routes>
               <Route path="/" element={<LandingPage />} />
               <Route path="/blogs" element={<MyBlogs />} />

@@ -24,7 +24,7 @@ function PublicBlogs() {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-primary mb-6 text-center">Public Blogs</h1>
+      <h1 className="text-3xl font-bold text-secondary mb-6 text-center">Shared <span className="text-primary">Blogs</span></h1>
       {loading ? (
         <p className="text-center text-primary text-4xl font-bold">Loading...</p>
       ) : blogs.length > 0 ? (

@@ -55,8 +55,8 @@ const MyBlogs = () => {
   return (
     <>
       <div className="max-w-4xl py-8">
-        <h1 className="text-3xl font-bold text-center text-primary mb-6">
-          My HubSpot Blogs
+        <h1 className="text-3xl font-bold text-center text-secondary mb-6">
+          My <span className="text-primary">HubSpot</span> Blogs
         </h1>
         {loading ? (
           <p className="text-center text-primary text-4xl font-bold">Loading...</p>

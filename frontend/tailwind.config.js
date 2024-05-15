@@ -9,6 +9,7 @@ export default {
       quaternary: "#67aded",
       white: "#EBEBEB",
       yellow: "#ff9d2a",
+      litegrey: "#e6e3e3"
     },
     extend: {},
   },
