@@ -14,7 +14,7 @@ const Navigation = () => {
       {isAuthenticated ? (
         <nav className="bg-secondary p-4">
           <div className="flex justify-between items-center">
-            <div className="text-white space-x-4">
+            <div className="text-white space-x-4 uppercase font-semibold">
               <Link
                 to="/blogs"
                 className="hover:text-primary transition duration-150 ease-in-out"
