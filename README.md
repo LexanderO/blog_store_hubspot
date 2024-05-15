@@ -49,6 +49,7 @@ cd blog_store_hubspot
 ```
 
 2. **Install dependecies**
+   
 Frontend:
 ```bash
 cd frontend
@@ -62,6 +63,7 @@ npm install
 ```
 
 3. **Set up environment variables**
+   
 Create a .env file in the backend directory and add the following:
 ```
 HUBSPOT_CLIENT_ID=your_hubspot_client_id
@@ -73,6 +75,7 @@ PORT=5000
 Update `HUBSPOT_CLIENT_ID`, `HUBSPOT_CLIENT_SECRET` and `MONGO_URI` with your HubSpot and MongoDB info
 
 4. **Run the application**
+
 Start the backend server:
 ```bash
 npm start
