@@ -2,7 +2,7 @@
 
 ## Description
 
-This MERN stack application integrates with HubSpot's APIs to view and share/store your blog posts. It allows users to authenticate via OAuth, fetch your blogs from HubSpot, display them, and upload to a local database. This project is designed to demonstrate how to:
+This MERN stack application integrates with HubSpot's APIs to view and share/store your HubSpot blog posts. It allows users to authenticate via OAuth, fetch your blogs from HubSpot, display them, and upload to a local database. This project is designed to demonstrate how to:
 - Use HubSpot's OAuth and API at backend.
 - A database that stores OAuth related information and results of the HubSpot API call.
 - A frontend that displays the results of the API call and fetched data from the local database.
@@ -87,7 +87,7 @@ The application should now be running on `http://localhost:5173`.
 
 ### Usage
 
-Navigate to `http://localhost:5173` in your browser to start using the application. You can authenticate with HubSpot using your Test Account, view your blogs fetched from HubSpot's API, upload whichever you choose to MongoDB and view blogs uploaded by others.
+Navigate to `http://localhost:5173` in your browser to start using the application. You can authenticate with HubSpot using your Test Account, view your blogs fetched from HubSpot's API, upload whichever blog you choose to MongoDB and view blogs uploaded by others.
 
 ### Acknowledgments
 
