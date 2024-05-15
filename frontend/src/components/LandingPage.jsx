@@ -11,7 +11,7 @@ const LandingPage = () => {
         <div className="flex justify-center pt-6">
         <button
           onClick={handleAuth}
-          className="bg-primary hover:bg-quaternary text-white transition duration-150 ease-in-out font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          className="bg-primary hover:bg-quaternary text-white transition duration-300 ease-in-out font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
         >
           Authorize with HubSpot
         </button>
